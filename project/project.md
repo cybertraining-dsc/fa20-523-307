@@ -4,7 +4,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 {{% pageinfo %}}
 
 ## Abstract
-Finacial markets can be unpredictive as is but this unpredictability is increased by one man's Twitter account, President Trump. My goal is to use Twitter and finance datasets to see how these tweets affect the market.
+Financial markets can be unpredictable as is but this unpredictability is increased by one man's Twitter account, President Trump. My goal is to use Twitter and finance datasets to see how these tweets affect the market.
 
 Contents
 
@@ -20,7 +20,7 @@ For the final project, my focus will be on financial market reactions through th
 
 ## 2. DataSets
 
-The datasets that will be used are the tweets from President Trump's personal account as well as Yahoo fiance data. These will be gathered from their respected APIs If needed, the following dataset from Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv) can be used in replace of Twitter's API for President Trump's tweets but are only avaiable up to June 2020. Which leads to the objective for the project, based on the data collected, the program should be able to visualize and predict how the market will react when President Trump send out a tweet.
+The datasets that will be used are the tweets from President Trump's personal account as well as Yahoo fiance data. These will be gathered from their respected APIs. If needed, the following dataset from Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv) can be used in replace of Twitter's API for President Trump's tweets but are only available up to June 2020. Which leads to the objective for the project, based on the data collected, the program should be able to visualize and predict how the market will react when President Trump send out a tweet.
 
 The data will span from President Trumps inauguration to the current day. To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account. 
 
@@ -37,6 +37,6 @@ The collection of finance and Twitter data will be used to visualize and predict
 
 Python, Jupyter notebook or collab, Pandas, Scikit-learn, Tensorflow/PyTorch
 
-## 5. Refernces
+## 5. References
 
 TBD
