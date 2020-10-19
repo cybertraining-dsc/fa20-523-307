@@ -33,6 +33,15 @@ The collection of finance and Twitter data will be used to visualize and predict
 * Data cleaning and extraction.
 * New data will be updated to keep up with the current time. 
 
+## Outline of plan
+
+In the next seven weeks, these are the tasks that need to be accomplished.
+
+* Week 9 - Week 10: Clean and preprocess the data needed for the project
+* Week 10 - Week 11: Research what methods that should be used 
+* Week 11 - Week 13: Preform sentiment analysis to find features and see if any correlation exists  
+* Week 13 - Week 16: Build out NLP model 
+
 ## 4. Technologies used
 
 Python, Jupyter notebook or collab, Pandas, Scikit-learn, Tensorflow/PyTorch
