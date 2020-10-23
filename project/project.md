@@ -33,6 +33,14 @@ The collection of finance and Twitter data will be used to visualize and predict
 * Data cleaning and extraction.
 * New data will be updated to keep up with the current time. 
 
+## Data Cleaning and Aggregation
+
+The first step is to clean the twitter and market data. Twitter's data is clean but in order to conduct the analysis needed, some of the columns need to be cleaned further. See the Data Cleaning section to see how this was accomplished. 
+
+## Preliminary Analysis and EDA
+
+Currently being conducted.
+
 ## Outline of plan
 
 In the next seven weeks, these are the tasks that need to be accomplished.
