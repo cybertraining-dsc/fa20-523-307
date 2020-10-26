@@ -22,9 +22,9 @@ There are some problems that arrise with EMH. One problem is that "stock prices 
 
 ## 2. DataSets
 
-The datasets that will be used are the tweets from President Trump's personal account as well as Yahoo fiance data. These will be gathered from their respected APIs. If needed, the following dataset from Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv) can be used in replace of Twitter's API for President Trump's tweets but are only available up to June 2020. Which leads to the objective for the project, based on the data collected, the program should be able to visualize and predict how the market will react when President Trump send out a tweet.
+The datasets that will be used are the tweets from President Trump's personal account as well as Yahoo Fiance data. Financial data will be gathered from Yahoo Finance's API. President Trump's twitter data will be from the following dataset available on Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv).
 
-The data will span from President Trumps inauguration to the current day. To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account. 
+The data will span from President Trumps inauguration to January 2020. To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account. 
 
 ## 3. Methodology/Process
 
