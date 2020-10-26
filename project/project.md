@@ -4,7 +4,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 {{% pageinfo %}}
 
 ## Abstract
-Financial markets can be unpredictable as is but this unpredictability is increased by one man's Twitter account, President Trump. My goal is to use Twitter and finance datasets to see how these tweets affect the market.
+In behavioral economics, it is said that emotions have an effect on individual's behavior and their chocie in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ). The applications of sentiment analysis and machine learning methods will help find the correlation that we are looking for. President Trump's tweets will be used to predict the mood and the NASDAQ movements.   
 
 Contents
 
@@ -12,7 +12,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** analysis, finance, stock markets, politics
+**Keywords:** analysis, finance, stock markets prediction, twitter, politics
 
 
 ## 1. Introduction
