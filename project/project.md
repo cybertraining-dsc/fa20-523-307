@@ -16,7 +16,9 @@ Contents
 
 
 ## 1. Introduction
-For the final project, my focus will be on financial market reactions through the President's tweets. The plan is to utilize President Trump's tweets and stock market data to predict the market reaction based on what is going to be published. A feature that is being introduced is a way to craft tweets based on historical data to see how the markets will react if a tweet such as that is published. This can be useful to see how news from the president can cause an increase or decline in markets.
+Financial markets have been an area of research in both academia and business. Predictions of the market has been growing in its accuracy with an every increasing amount of data used to test these models. "The Efficient Market Hypothesis (EMH) states that stock market prices are largely driven by *new* information and follow a random walk pattern"[1]. This shows that prices will follow news rather than previous and present prices. Information is unpredictable in terms of its release/publication showing market prices will follow a random walk pattern and the prediction can not be high. 
+
+There are some problems that arrise with EMH. One problem is that "stock prices does not follow a random walk pattern and can be predicted to a certain degree"[2]. Another problem associated with EMH is with the information's unpreidctability, the unpredictability is called into question with the introduction of social media (Facebook, Twitter, blogs). The rise of social media can be a early indicator for news before it is released/published.    
 
 ## 2. DataSets
 
@@ -56,4 +58,6 @@ Python, Jupyter notebook or collab, Pandas, Scikit-learn, Tensorflow/PyTorch
 
 ## 5. References
 
-TBD
+[1] Goel, A. and Mittal, A., 2011. Stock Prediction Using Twitter Sentiment Analysis. [online] cs229.stanford.edu. Available at: <http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf>.
+
+[2] J. Bollen, H. Mao, and X. Zeng, “Twitter mood predicts the stock market,” Journal of Computational Science, vol. 2, no. 1, pp. 1–8, 2011. 
