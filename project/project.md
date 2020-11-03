@@ -21,10 +21,27 @@ Financial markets have been an area of research in both academia and business. P
 There are some problems that arrise with EMH. One problem is that "stock prices does not follow a random walk pattern and can be predicted to a certain degree"[2]. Another problem associated with EMH is with the information's unpreidctability, the unpredictability is called into question with the introduction of social media (Facebook, Twitter, blogs). The rise of social media can be a early indicator for news before it is released/published.    
 
 ## 2. DataSets
+In this project, two datasets will be used - 
+* The NASDAQ values from November 2016 to January 2020. This data was obtained through Yahoo! Finance and includes Date, Open, High, Low, Close, Adj Close, and Volume for a given day.
 
-The datasets that will be used are the tweets from President Trump's personal account as well as Yahoo Fiance data. Financial data will be gathered from Yahoo Finance's API. President Trump's twitter data will be from the following dataset available on Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv).
+* President Trump's tweets during the periods of November 2016 to January 2020 is over 41,000 tweets. The data includes id, link, content, date, retweets, favorites, mentions, hashtags, and geo for every tweet in the timeframe. Since the perfomance of the prediction is on a daily basis, tweets will be split up by Date. This data is available on Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv).
 
-The data will span from President Trumps inauguration to January 2020. To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account. 
+
+To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account.  
+
+## Data Cleaning and Preprocessing
+
+The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis.  
+
+### Twitter Data
+
+When importing the Twitter data, there are several things that are noticed when printing the first five rows. Three of the columns mention, hashtags, and geo are currenly showing NaN. After calculating the missing values, all the values in these columns are missing or are zero so we can drop these columns from the dataframe.
+
+The tweets are one of the last columns needed to be cleaned. The text of the tweets needs to be unifomred in order to conduct analysis. Removing punctuations was the first step followed by removing content specificly seen in tweets. These could be the word retweet, the hashtag symbol(#), the @ symbol followed by a username, and any hyperlinks that could be in a tweet. 
+
+### Stock Data
+
+Stock data has a unique set of challenges when it comes to cleaning. Unlike tweets, stock data is only available Monday through Friday and is not available for holidays that the market is closed. In order to have a complete dataset, several options are available. One option is to drop the tweets that fall on a weekend. This would not be usefull since markets can react to news that happens on the weekend. Another option is to approximate the missing values in the stock data. This has not been conducted yet. 
 
 ## 3. Methodology/Process
 
@@ -35,13 +52,21 @@ The collection of finance and Twitter data will be used to visualize and predict
 * Data cleaning and extraction.
 * New data will be updated to keep up with the current time. 
 
-## Data Cleaning and Aggregation
-
-The first step is to clean the twitter and market data. Twitter's data is clean but in order to conduct the analysis needed, some of the columns need to be cleaned further. See the Data Cleaning section to see how this was accomplished. 
-
 ## Preliminary Analysis and EDA
 
-Currently being conducted.
+### Twitter Data
+
+When starting to conduct prelininary analysis and exploratory data analysis (EDA), it is helpful to first check for any null values in the data and luckly there are no null values in the twitter data. 
+
+The date column is a column that is needed to track the amount of tweets per month and year. In the column, the timestamp and the date are combined so this need to be seperated in several ways. The first being seperating the date from the timestamp into its own column. This is followed up by seperating the date into 4 columns for day, month, year and month-year in order to track tweets based on specified criteria. 
+
+After graphing the amount of tweets per year, the obervation is that 2016 and 2020 have a low tweet count. The reminder is that the data starts in November 2016 making 2016 have two months of data compared to 2020 with only one month being January. From 2017 through 2019, we can see that the amount of tweets increases by almost a thousand every year. The tweets per month tell a different story. The amount varies greatly over the years with the greatest amount being near the end of 2016 and the beginning of 2017.   
+
+### Stock Data
+
+Similar to the twitter data, checking for null values is important but since the data is from Yahoo! Finance there are no missing values on the days that the markets are opened. 
+
+Once graphing the open and closed prices of the NASDAQ, there seems to be an general upwards trend in the market over the time period. 
 
 ## Outline of plan
 
