@@ -80,6 +80,12 @@ Once graphing the open and closed prices of the NASDAQ, there seems to be an gen
 
 **Figure 3:** Caption missing
 
+## The Impeachment of President Trump
+
+## The Dakota Access and Keystone XL pipelines approval
+
+## The Government Shutdown
+
 ## Outline of plan
 
 In the next seven weeks, these are the tasks that need to be accomplished.
