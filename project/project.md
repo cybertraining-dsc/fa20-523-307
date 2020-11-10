@@ -1,4 +1,7 @@
 # Analysis of Financial Markets based on President Trump's Tweets
+
+[![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
+
 Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-307/blob/master/project/project.md)
 
 {{% pageinfo %}}
@@ -21,6 +24,7 @@ Financial markets have been an area of research in both academia and business. P
 There are some problems that arise with EMH. One problem is that "stock prices does not follow a random walk pattern and can be predicted to a certain degree"[2]. Another problem associated with EMH is with the information's unpredictability, the unpredictability is called into question with the introduction of social media (Facebook, Twitter, blogs). The rise of social media can be a early indicator for news before it is released/published. This project is attempting to predict the market based on how the President tweets. This currently has not been done according to my research.   
 
 ## 2. DataSets
+
 In this project, two datasets will be used - 
 * The NASDAQ values from November 2016 to January 2020. This data was obtained through Yahoo! Finance and includes Date, Open, High, Low, Close, Adj Close, and Volume for a given day.
 
