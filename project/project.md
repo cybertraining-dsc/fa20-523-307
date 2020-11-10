@@ -62,13 +62,13 @@ The date column is a column that is needed to track the amount of tweets per mon
 
 After graphing the amount of tweets per year, the observation is that 2016 and 2020 have a low tweet count. The reminder is that the data starts in November 2016 making 2016 have two months of data compared to 2020 with only one month being January. From 2017 through 2019, we can see that the amount of tweets increases by almost a thousand every year. The tweets per month tell a different story. The amount varies greatly over the years with the greatest amount being near the end of 2016 and the beginning of 2017.  
 
-![Figure 1: Caption missing](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/year_tweets.png)
+![Figure 1: Number of Tweets per Year](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/year_tweets.png)
 
-**Figure 1:** Caption missing
+**Figure 1:** Number of Tweets per Year
 
-![Figure 2: Caption missing](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/month_tweets.png)
+![Figure 2: Number of Tweets per Month](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/month_tweets.png)
 
-**Figure 2:** Caption missing
+**Figure 2:** Number of Tweets per Month
 
 ### Stock Data
 
@@ -76,9 +76,9 @@ Similar to the twitter data, checking for null values is important but since the
 
 Once graphing the open and closed prices of the NASDAQ, there seems to be an general upwards trend in the market over the time period. 
 
-![Figure 3 Caption missing](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/market.png)
+![Figure 3 Open and Close Price of the NASDAQ](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/market.png)
 
-**Figure 3:** Caption missing
+**Figure 3:** Open and Close Price of the NASDAQ
 
 ## The Impeachment of President Trump
 
