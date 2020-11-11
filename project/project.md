@@ -84,11 +84,15 @@ Once graphing the open and closed prices of the NASDAQ, there seems to be an gen
 
 **Figure 3:** Open and Close Price of the NASDAQ
 
-## The Impeachment of President Trump
+## Defining events during Trump's presidency
 
-## The Dakota Access and Keystone XL pipelines approval
+### The Impeachment of President Trump
 
-## The Government Shutdown
+Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and more recently Donald Trump. The impeachment of Trump was an event that many have seen coming since his inauguration.
+
+### The Dakota Access and Keystone XL pipelines approval
+
+### The Government Shutdown
 
 ## Outline of plan
 
