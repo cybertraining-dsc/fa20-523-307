@@ -113,6 +113,6 @@ Python, Jupyter notebook or collab, Pandas, Scikit-learn, Tensorflow/PyTorch
 
 ## 5. References
 
-[^1] Goel, A. and Mittal, A., 2011. Stock Prediction Using Twitter Sentiment Analysis. [online] cs229.stanford.edu. Available at: <http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf>.
+[^1]: Goel, A. and Mittal, A., 2011. Stock Prediction Using Twitter Sentiment Analysis. [online] cs229.stanford.edu. Available at: <http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf>.
 
-[^2] J. Bollen, H. Mao, and X. Zeng, Twitter mood predicts the stock market. Journal of Computational Science, vol. 2, no. 1, pp. 1–8, 2011. 
+[^2]: J. Bollen, H. Mao, and X. Zeng, Twitter mood predicts the stock market. Journal of Computational Science, vol. 2, no. 1, pp. 1–8, 2011. 
