@@ -1,5 +1,7 @@
 # Analysis of Financial Markets based on President Trump's Tweets
 
+- [ ] Please add references and table of content. 
+
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
 
 Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-307/blob/master/project/project.md)
