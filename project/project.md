@@ -1,6 +1,6 @@
 # Analysis of Financial Markets based on President Trump's Tweets
 
-- [ ] Please add references and table of content. 
+- [ ] Please add references 
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
 
@@ -13,6 +13,15 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ). The applications of sentiment analysis and machine learning methods will help find the correlation that we are looking for. President Trump's tweets will be used to predict the mood and the NASDAQ movements.   
 
 Contents
+
+1. Introduction
+2. Data Sets
+3. Data Cleaning
+   * Twitter Data
+   * Stock Data 
+4. Methodology/Process
+5. Preliminary Analysis and EDA
+6. Defining events during Trump's presidency
 
 {{< table_of_contents >}}
 
@@ -37,7 +46,7 @@ In this project, two datasets will be used -
 
 To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account.  
 
-## Data Cleaning and Preprocessing
+## 3. Data Cleaning and Preprocessing
 
 The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis.  
 
@@ -51,7 +60,7 @@ The tweets are one of the last columns needed to be cleaned. The text of the twe
 
 Stock data has a unique set of challenges when it comes to cleaning. Unlike tweets, stock data is only available Monday through Friday and is not available for holidays that the market is closed. In order to have a complete dataset, several options are available. One option is to drop the tweets that fall on a weekend. This would not be useful since markets can react to news that happens on the weekend. Another option is to approximate the missing values in the stock data. This has not been conducted yet. 
 
-## 3. Methodology/Process
+## 4. Methodology/Process
 
 The collection of finance and Twitter data will be used to visualize and predict the results. Some of Twitter or dataset data will need to be cleaned and classified to build the model. The methodology is composed of the following steps:
 
@@ -60,7 +69,7 @@ The collection of finance and Twitter data will be used to visualize and predict
 * Data cleaning and extraction.
 * New data will be updated to keep up with the current time. 
 
-## Preliminary Analysis and EDA
+## 5. Preliminary Analysis and EDA
 
 ### Twitter Data
 
@@ -88,11 +97,11 @@ Once graphing the open and closed prices of the NASDAQ, there seems to be an gen
 
 **Figure 3:** Open and Close Price of the NASDAQ
 
-## Defining events during Trump's presidency
+## 6. Defining events during Trump's presidency
 
 ### The Impeachment of President Trump
 
-Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and more recently Donald Trump. The impeachment of Trump was an event that many have seen coming since his inauguration.
+After weeks of talks among Congress, the House of Representatives have voted to impeach President Trump on two charges: abuse of power and obstruction of Congress on December 18, 2019. Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and now Donald Trump. This move has been widely advocated for since his election in 2016. In September 2019, news leaked of a phone call between President Trump and Ukrainian President Volodymyr Zelensky regarding an investigation into Hunter Biden, son of then Democratic candidate Joe Biden, for his dealings in Ukraine. 
 
 ### The Dakota Access and Keystone XL pipelines approval
 
