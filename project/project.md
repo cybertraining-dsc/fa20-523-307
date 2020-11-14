@@ -1,6 +1,7 @@
 # Analysis of Financial Markets based on President Trump's Tweets
 
 - [ ] Please add references 
+- [ ] Please explain how technologies are used in the project. 
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
 
