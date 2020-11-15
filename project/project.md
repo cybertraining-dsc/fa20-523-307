@@ -1,7 +1,5 @@
 # Analysis of Financial Markets based on President Trump's Tweets
 
-- [ ] Please add references 
-- [ ] Please explain how technologies are used in the project. 
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
 
@@ -11,7 +9,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 
 ## Abstract
 
-In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ). The applications of sentiment analysis and machine learning methods will help find the correlation that we are looking for. President Trump's tweets will be used to predict the mood and the NASDAQ movements.   
+In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ). The applications of sentiment analysis and machine learning methods will help find the correlation that we are looking for. President Trump's tweets will be used to analyze the mood and the NASDAQ movements.   
 
 Contents
 
@@ -24,9 +22,9 @@ Contents
 
 ## 1. Introduction
 
-Financial markets have been an area of research in both academia and business. Predictions of the market has been growing in its accuracy with an every increasing amount of data used to test these models. "The Efficient Market Hypothesis (EMH) states that stock market prices are largely driven by *new* information and follow a random walk pattern"[1]. This shows that prices will follow news rather than previous and present prices. Information is unpredictable in terms of its release/publication showing market prices will follow a random walk pattern and the prediction can not be high. 
+Financial markets have been an area of research in both academia and business. Analysis and predictions has been growing in its accuracy with an every increasing amount of data used to test these models. "The Efficient Market Hypothesis (EMH) states that stock market prices are largely driven by *new* information and follow a random walk pattern"[^1]. This shows that prices will follow news rather than previous and present prices. Information is unpredictable in terms of its release/publication showing market prices will follow a random walk pattern and the prediction can not be high. 
 
-There are some problems that arise with EMH. One problem is that "stock prices does not follow a random walk pattern and can be predicted to a certain degree"[2]. Another problem associated with EMH is with the information's unpredictability, the unpredictability is called into question with the introduction of social media (Facebook, Twitter, blogs). The rise of social media can be a early indicator for news before it is released/published. This project is attempting to predict the market based on how the President tweets. This currently has not been done according to my research.   
+There are some problems that arise with EMH. One problem is that "stock prices does not follow a random walk pattern and can be predicted to a certain degree"[^2]. Another problem associated with EMH is with the information's unpredictability, the unpredictability is called into question with the introduction of social media (Facebook, Twitter, blogs). The rise of social media can be a early indicator for news before it is released/published. This project will analyze the market based on how the President tweets during certain events. 
 
 ## 2. DataSets
 
@@ -40,7 +38,7 @@ To strengthen the prediction, even more, some code from the 2016 election’s an
 
 ## 3. Data Cleaning and Preprocessing
 
-The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis.  
+The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis through the use of Pandas, Regex, and Matplotlib.  
 
 ### 3.1 Twitter Data
 
@@ -108,13 +106,10 @@ In the next seven weeks, these are the tasks that need to be accomplished.
 * Week 11 - Week 13: Preform sentiment analysis to find features and see if any correlation exists  
 * Week 13 - Week 16: Build out NLP model 
 
-## 8. Technologies used
 
-Python, Jupyter notebook or collab, Pandas, Scikit-learn, Tensorflow/PyTorch
+## 8. Conclusion
 
-## 9. Conclusion
-
-## 10. References
+## 9. References
 
 [^1]: Goel, A. and Mittal, A., 2011. Stock Prediction Using Twitter Sentiment Analysis. [online] cs229.stanford.edu. Available at: <http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf>.
 
