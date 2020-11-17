@@ -9,7 +9,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 
 ## Abstract
 
-In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ). The applications of sentiment analysis and machine learning methods will help find the correlation that we are looking for. President Trump's tweets will be used to analyze the mood and the NASDAQ movements.   
+In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ) during certain events during his presidency. The applications of sentiment analysis will help find the correlation that we are looking for. President Trump's tweets will be used to analyze the mood and the NASDAQ movements.   
 
 Contents
 
@@ -31,10 +31,10 @@ There are some problems that arise with EMH. One problem is that "stock prices d
 In this project, two datasets will be used - 
 * The NASDAQ values from November 2016 to January 2020. This data was obtained through Yahoo! Finance and includes Date, Open, High, Low, Close, Adj Close, and Volume for a given day.
 
-* President Trump's tweets during the periods of November 2016 to January 2020 is over 41,000 tweets. The data includes id, link, content, date, retweets, favorites, mentions, hashtags, and geo for every tweet in the time frame. Since the performance of the prediction is on a daily basis, tweets will be split up by Date. This data is available on Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv).
+* President Trump's tweets during the periods of November 2016 to January 2020 is over 41,000 tweets. The data includes id, link, content, date, retweets, favorites, mentions, hashtags, and geo for every tweet in the time frame. Since the performance of the analysis is on a daily basis, tweets will be split up by Date. This data is available on Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv).
 
 
-To strengthen the prediction, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong prediction, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account.  
+To strengthen the analysis, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong analysis, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account.  
 
 ## 3. Data Cleaning and Preprocessing
 
@@ -52,7 +52,7 @@ Stock data has a unique set of challenges when it comes to cleaning. Unlike twee
 
 ## 4. Methodology/Process
 
-The collection of finance and Twitter data will be used to visualize and predict the results. Some of Twitter or dataset data will need to be cleaned and classified to build the model. The methodology is composed of the following steps:
+The collection of finance and Twitter data will be used to visualize the results. Some of Twitter or dataset data will need to be cleaned and classified to build the model. The methodology is composed of the following steps:
 
 * Use data from President Trump's personal twitter to help visualize and create the model
 * Use data from Yahoo finance API to help visualize and create the model
@@ -69,16 +69,16 @@ The date column is a column that is needed to track the amount of tweets per mon
 
 After graphing the amount of tweets per year, the observation is that 2016 and 2020 have a low tweet count. The reminder is that the data starts in November 2016 making 2016 have two months of data compared to 2020 with only one month being January. From 2017 through 2019, we can see that the amount of tweets increases by almost a thousand every year. The tweets per month tell a different story. The amount varies greatly over the years with the greatest amount being near the end of 2016 and the beginning of 2017.  
 
-![Figure 1: Number of Tweets per Year](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/year_tweets.png)
+![Figure 1: Number of Tweets per Year](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/year_tweets.png)
 
 **Figure 1:** Number of Tweets per Year
 
-![Figure 2: Number of Tweets per Month](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/month_tweets.png)
+![Figure 2: Number of Tweets per Month](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/month_tweets.png)
 
 **Figure 2:** Number of Tweets per Month
 
 
-![Figure 3: Sentiment Analysis of Tweets](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/sentiment.png)
+![Figure 3: Sentiment Analysis of Tweets](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/sentiment.png)
 
 **Figure 3:** Sentiment Analysis of Tweets
 
@@ -89,7 +89,7 @@ Similar to the twitter data, checking for null values is important but since the
 
 Once graphing the open and closed prices of the NASDAQ, there seems to be an general upwards trend in the market over the time period. 
 
-![Figure 4 Open and Close Price of the NASDAQ](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/market.png)
+![Figure 4 Open and Close Price of the NASDAQ](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/market.png)
 
 **Figure 4:** Open and Close Price of the NASDAQ
 
@@ -99,11 +99,11 @@ Once graphing the open and closed prices of the NASDAQ, there seems to be an gen
 
 After weeks of talks among Congress, the House of Representatives have voted to impeach President Trump on two charges: abuse of power and obstruction of Congress on December 18, 2019. Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and now Donald Trump. This move has been widely advocated for since his election in 2016. "In September 2019, news leaked of a phone call between President Trump and Ukrainian President Volodymyr Zelensky regarding an investigation into Hunter Biden, son of then Democratic candidate Joe Biden, for his dealings in Ukraine" [^3]. Sentiment analysis was preformed on tweets that fall in the time frame of President Trump's impeachment as shown below.
 
-![Figure 5: Sentiment Analysis during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/impeachment_sentiment.png)
+![Figure 5: Sentiment Analysis during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/impeachment_sentiment.png)
 
 **Figure 5:** Sentiment Analysis during Impeachment
 
-![Figure 6: Open and Close Price during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/impeachment_stock.png)
+![Figure 6: Open and Close Price during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/impeachment_stock.png)
 
 **Figure 6:** Open and Close Price during Impeachment
 
@@ -111,11 +111,11 @@ After weeks of talks among Congress, the House of Representatives have voted to 
 
 One of the first moves President Trump made when arriving into office was to approve the Dakota Access and Keystone XL pipelines. "Both of the pipelines were blocked by the Obama administration due to environmental concerns, but President Trump has questioned climate change and promised to expand energy infrastructure and create jobs"[^4]. The Keystone pipeline would span 1,200 miles across six states, moving over 800,000 barrels of oil daily from Canada to the Gulf coast. The Dakota Access pipeline would move oil from North Dakota all the way to Illinois. "The Standing Rock Sioux tribe, whose reservation is adjacent to the pipeline, staged protests that drew thousands of climate change activists to the rural area of Cannon Ball, North Dakota" [^4]. 
 
-![Figure 7: Sentiment Analysis during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/dakota_sentiment.png)
+![Figure 7: Sentiment Analysis during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/dakota_sentiment.png)
 
 **Figure 7:** Sentiment Analysis during Dakota Approval
 
-![Figure 8: Open and Close Price during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/dakota_stock.png)
+![Figure 8: Open and Close Price during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/dakota_stock.png)
 
 **Figure 8:** Open and Close Price during Dakota Approval
 
@@ -123,11 +123,11 @@ One of the first moves President Trump made when arriving into office was to app
 
 On December 21, 2018 the United States Government shutdown. "At the heart of the dispute is Trump's demand for just over $5 billion toward a long-promised wall along the US-Mexico border" [^5]. The shutdown affected a part of the federal government such as homeland security, transportation, and agriculture. "The problems caused by the shutdown are wide-ranging, from waste piling up in national parks to uncertainty for 800,000 federal workers about when their next paycheck will come" [^5]. This shutdown was the longest shutdown in the modern era coming to an end on January 25, 2019 after 35 days. 
 
-![Figure 9: Sentiment Analysis during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/shutdown_sentiment.png)
+![Figure 9: Sentiment Analysis during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/shutdown_sentiment.png)
 
 **Figure 9:** Sentiment Analysis during the Government Shutdown
 
-![Figure 10: Open and Close Price during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/shutdown_stock.png)
+![Figure 10: Open and Close Price during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/shutdown_stock.png)
 
 **Figure 10:** Open and Close Price during the Government Shutdown
 
