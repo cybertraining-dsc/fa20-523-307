@@ -67,7 +67,7 @@ When starting to conduct preliminary analysis and exploratory data analysis (EDA
 
 The date column is a column that is needed to track the amount of tweets per month and year. In the column, the timestamp and the date are combined so this need to be separated in several ways. The first being separating the date from the timestamp into its own column. This is followed up by separating the date into 4 columns for day, month, year and month-year in order to track tweets based on specified criteria. 
 
-After graphing the amount of tweets per year, the observation is that 2016 and 2020 have a low tweet count. The reminder is that the data starts in November 2016 making 2016 have two months of data compared to 2020 with only one month being January. From 2017 through 2019, we can see that the amount of tweets increases by almost a thousand every year. The tweets per month tell a different story. The amount varies greatly over the years with the greatest amount being near the end of 2016 and the beginning of 2017.  
+After graphing the amount of tweets per year, the observation is that 2016 and 2020 have a low tweet count. The reminder is that the data starts in November 2016 making 2016 have two months of data compared to 2020 with only one month being January. From 2017 through 2019, we can see that the amount of tweets increases by almost a thousand every year. The tweets per month tell a different story. The amount varies greatly over the years with the greatest amount being near the end of 2016 and the beginning of 2017. The sentiment of the tweets show that a majority of the tweets are a little skewed to the right of the graph. This shows that may of the President tweets are positive in some aspect as well as have a personal opinion, emotion or judgement. 
 
 ![Figure 1: Number of Tweets per Year](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/year_tweets.png)
 
@@ -97,7 +97,7 @@ Once graphing the open and closed prices of the NASDAQ, there seems to be an gen
 
 ### 6.1 The Impeachment of President Trump
 
-After weeks of talks among Congress, the House of Representatives have voted to impeach President Trump on two charges: abuse of power and obstruction of Congress on December 18, 2019. Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and now Donald Trump. This move has been widely advocated for since his election in 2016. "In September 2019, news leaked of a phone call between President Trump and Ukrainian President Volodymyr Zelensky regarding an investigation into Hunter Biden, son of then Democratic candidate Joe Biden, for his dealings in Ukraine" [^3]. Sentiment analysis was preformed on tweets that fall in the time frame of President Trump's impeachment as shown below.
+After weeks of talks among Congress, the House of Representatives have voted to impeach President Trump on two charges: abuse of power and obstruction of Congress on December 18, 2019. Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and now Donald Trump. This move has been widely advocated for since his election in 2016. "In September 2019, news leaked of a phone call between President Trump and Ukrainian President Volodymyr Zelensky regarding an investigation into Hunter Biden, son of then Democratic candidate Joe Biden, for his dealings in Ukraine" [^3]. The sentiment analysis preformed on tweets that fall in the time frame of President Trump's impeachment. The graph shows an almost even split in polarity but more tweets have a higher subjectivity suggesting many tweets are personal opinions. The NASDAQ shows stock were down when the Articles of Impeachment were announced but when the vote to approve the articles started in mid December, the stock price is on an upward trend.
 
 ![Figure 5: Sentiment Analysis during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/impeachment_sentiment.png)
 
@@ -109,7 +109,7 @@ After weeks of talks among Congress, the House of Representatives have voted to 
 
 ### 6.2 The Dakota Access and Keystone XL pipelines approval
 
-One of the first moves President Trump made when arriving into office was to approve the Dakota Access and Keystone XL pipelines. "Both of the pipelines were blocked by the Obama administration due to environmental concerns, but President Trump has questioned climate change and promised to expand energy infrastructure and create jobs"[^4]. The Keystone pipeline would span 1,200 miles across six states, moving over 800,000 barrels of oil daily from Canada to the Gulf coast. The Dakota Access pipeline would move oil from North Dakota all the way to Illinois. "The Standing Rock Sioux tribe, whose reservation is adjacent to the pipeline, staged protests that drew thousands of climate change activists to the rural area of Cannon Ball, North Dakota" [^4]. 
+One of the first moves President Trump made when arriving into office was to approve the Dakota Access and Keystone XL pipelines. "Both of the pipelines were blocked by the Obama administration due to environmental concerns, but President Trump has questioned climate change and promised to expand energy infrastructure and create jobs"[^4]. The Keystone pipeline would span 1,200 miles across six states, moving over 800,000 barrels of oil daily from Canada to the Gulf coast. The Dakota Access pipeline would move oil from North Dakota all the way to Illinois. "The Standing Rock Sioux tribe, whose reservation is adjacent to the pipeline, staged protests that drew thousands of climate change activists to the rural area of Cannon Ball, North Dakota" [^4]. The sentiment graph shows tweets have a higher polarity but subjectivity is not as high as other events. In the days leading up to the signing of the pipelines on January 24th, the stock price has an upward trend but takes a sharp drop a couple days later possibly due to protests against the pipelines. 
 
 ![Figure 7: Sentiment Analysis during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/dakota_sentiment.png)
 
@@ -121,7 +121,7 @@ One of the first moves President Trump made when arriving into office was to app
 
 ### 6.3 The Government Shutdown
 
-On December 21, 2018 the United States Government shutdown. "At the heart of the dispute is Trump's demand for just over $5 billion toward a long-promised wall along the US-Mexico border" [^5]. The shutdown affected a part of the federal government such as homeland security, transportation, and agriculture. "The problems caused by the shutdown are wide-ranging, from waste piling up in national parks to uncertainty for 800,000 federal workers about when their next paycheck will come" [^5]. This shutdown was the longest shutdown in the modern era coming to an end on January 25, 2019 after 35 days. 
+On December 21, 2018 the United States Government shutdown. "At the heart of the dispute is Trump's demand for just over $5 billion toward a long-promised wall along the US-Mexico border" [^5]. The shutdown affected a part of the federal government such as homeland security, transportation, and agriculture. "The problems caused by the shutdown are wide-ranging, from waste piling up in national parks to uncertainty for 800,000 federal workers about when their next paycheck will come" [^5]. This shutdown was the longest shutdown in the modern era coming to an end on January 25, 2019 after 35 days. The sentiment graph tells that the tweets shared during the shutdown are skewed to the right in terms of polarity with a majority of tweets being at or around 0.6 in subjectivity. Prior to the government shutdown, stock prices fell by 10 dollars with the lowest being around the time the shutdown began. The new year shows stock on a steady increase during the month of January, when the shutdown was lifted. 
 
 ![Figure 9: Sentiment Analysis during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/shutdown_sentiment.png)
 
@@ -137,10 +137,12 @@ In the next seven weeks, these are the tasks that need to be accomplished.
 
 * Week 9 - Week 10: Clean and preprocess the data needed for the project
 * Week 10 - Week 11: Research what methods that should be used 
-* Week 11 - Week 13: Preform sentiment analysis to find features and see if any correlation exists
+* Week 11 - Week 13: Preform sentiment analysis on certain events. 
 
 
 ## 8. Conclusion
+
+The investigation into the relation between President Trump's tweets and the NASDAQ during certain events. The results showed that a majority of tweets were positive in polarity with subjectivity being higher or sometimes lower depending on the event. The NASDAQ had some interesting reactions based on the events. In highly important events, the stock price tended to have an upward trajectory but leading up to the event the price would go down. These results show that the content of the President's tweets have some impact in terms of the market movements, but many factors go into the price of the market such as foreign relations and how companies are preforming. Finally, its worth s worth mentioning that the analysis doesn’t take into account some factors. Weekends were a factor that was not included into the stock market data. Tweets from the President's official account were not taken into account in this analysis. All of these remaining areas can be added in future research. 
 
 ## 9. References
 
