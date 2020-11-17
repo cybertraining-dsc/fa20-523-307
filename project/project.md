@@ -77,25 +77,59 @@ After graphing the amount of tweets per year, the observation is that 2016 and 2
 
 **Figure 2:** Number of Tweets per Month
 
+
+![Figure 3: Sentiment Analysis of Tweets](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/sentiment.png)
+
+**Figure 3:** Sentiment Analysis of Tweets
+
+
 ### 5.2 Stock Data
 
 Similar to the twitter data, checking for null values is important but since the data is from Yahoo! Finance there are no missing values on the days that the markets are opened. 
 
 Once graphing the open and closed prices of the NASDAQ, there seems to be an general upwards trend in the market over the time period. 
 
-![Figure 3 Open and Close Price of the NASDAQ](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/market.png)
+![Figure 4 Open and Close Price of the NASDAQ](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/market.png)
 
-**Figure 3:** Open and Close Price of the NASDAQ
+**Figure 4:** Open and Close Price of the NASDAQ
 
 ## 6. Defining events during Trump's presidency
 
 ### 6.1 The Impeachment of President Trump
 
-After weeks of talks among Congress, the House of Representatives have voted to impeach President Trump on two charges: abuse of power and obstruction of Congress on December 18, 2019. Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and now Donald Trump. This move has been widely advocated for since his election in 2016. In September 2019, news leaked of a phone call between President Trump and Ukrainian President Volodymyr Zelensky regarding an investigation into Hunter Biden, son of then Democratic candidate Joe Biden, for his dealings in Ukraine. 
+After weeks of talks among Congress, the House of Representatives have voted to impeach President Trump on two charges: abuse of power and obstruction of Congress on December 18, 2019. Since the country's founding in 1776, only three presidents have faced impeachment from Congress: Andrew Johnson, Bill Clinton and now Donald Trump. This move has been widely advocated for since his election in 2016. "In September 2019, news leaked of a phone call between President Trump and Ukrainian President Volodymyr Zelensky regarding an investigation into Hunter Biden, son of then Democratic candidate Joe Biden, for his dealings in Ukraine" [^3]. Sentiment analysis was preformed on tweets that fall in the time frame of President Trump's impeachment as shown below.
+
+![Figure 5: Sentiment Analysis during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/impeachment_sentiment.png)
+
+**Figure 5:** Sentiment Analysis during Impeachment
+
+![Figure 6: Open and Close Price during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/impeachment_stock.png)
+
+**Figure 6:** Open and Close Price during Impeachment
 
 ### 6.2 The Dakota Access and Keystone XL pipelines approval
 
+One of the first moves President Trump made when arriving into office was to approve the Dakota Access and Keystone XL pipelines. "Both of the pipelines were blocked by the Obama administration due to environmental concerns, but President Trump has questioned climate change and promised to expand energy infrastructure and create jobs"[^4]. The Keystone pipeline would span 1,200 miles across six states, moving over 800,000 barrels of oil daily from Canada to the Gulf coast. The Dakota Access pipeline would move oil from North Dakota all the way to Illinois. "The Standing Rock Sioux tribe, whose reservation is adjacent to the pipeline, staged protests that drew thousands of climate change activists to the rural area of Cannon Ball, North Dakota" [^4]. 
+
+![Figure 7: Sentiment Analysis during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/dakota_sentiment.png)
+
+**Figure 7:** Sentiment Analysis during Dakota Approval
+
+![Figure 8: Open and Close Price during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/dakota_stock.png)
+
+**Figure 8:** Open and Close Price during Dakota Approval
+
 ### 6.3 The Government Shutdown
+
+On December 21, 2018 the United States Government shutdown. "At the heart of the dispute is Trump's demand for just over $5 billion toward a long-promised wall along the US-Mexico border" [^5]. The shutdown affected a part of the federal government such as homeland security, transportation, and agriculture. "The problems caused by the shutdown are wide-ranging, from waste piling up in national parks to uncertainty for 800,000 federal workers about when their next paycheck will come" [^5]. This shutdown was the longest shutdown in the modern era coming to an end on January 25, 2019 after 35 days. 
+
+![Figure 9: Sentiment Analysis during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/shutdown_sentiment.png)
+
+**Figure 9:** Sentiment Analysis during the Government Shutdown
+
+![Figure 10: Open and Close Price during the Government Shutdown](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/master/project/images/shutdown_stock.png)
+
+**Figure 10:** Open and Close Price during the Government Shutdown
 
 ## 7. Outline of plan
 
@@ -103,8 +137,7 @@ In the next seven weeks, these are the tasks that need to be accomplished.
 
 * Week 9 - Week 10: Clean and preprocess the data needed for the project
 * Week 10 - Week 11: Research what methods that should be used 
-* Week 11 - Week 13: Preform sentiment analysis to find features and see if any correlation exists  
-* Week 13 - Week 16: Build out NLP model 
+* Week 11 - Week 13: Preform sentiment analysis to find features and see if any correlation exists
 
 
 ## 8. Conclusion
@@ -114,3 +147,9 @@ In the next seven weeks, these are the tasks that need to be accomplished.
 [^1]: Goel, A. and Mittal, A., 2011. Stock Prediction Using Twitter Sentiment Analysis. [online] cs229.stanford.edu. Available at: <http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf>.
 
 [^2]: J. Bollen, H. Mao, and X. Zeng, Twitter mood predicts the stock market. Journal of Computational Science, vol. 2, no. 1, pp. 1–8, 2011. 
+
+[^3] President Donald Trump impeached, History.com, 05-Feb-2020. [online]. Available at: <https://www.history.com/this-day-in-history/president-trump-impeached-house-of-representatives>. 
+
+[^4] D. Smith and A. Kassam, Trump orders revival of Keystone XL and Dakota Access pipelines, The Guardian, 24-Jan-2017. [online]. Available at: <https://www.theguardian.com/us-news/2017/jan/24/keystone-xl-dakota-access-pipelines-revived-trump-administration>. 
+
+[^5] Bryan, B., The government shutdown is now the longest on record and the fight between Trump and Democrats is only getting uglier. Here's everything you missed. 21-Jan-2019. [online]. Available at: <https://www.businessinsider.com/government-shutdown-timeline-deadline-trump-democrats-2019-1>.
