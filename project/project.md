@@ -40,7 +40,7 @@ To strengthen the analysis, even more, some code from the 2016 election’s anal
 
 ## 3. Data Cleaning and Preprocessing
 
-The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis through the use of Pandas, Regex, and Matplotlib.  
+The data required for this project is stock market data and Twitter data from President Trump. Stock market data was collected from Yahoo Finance's API. This data was saved to a CSV file then imported using Pandas. The Twitter data was collected by a Kaggle user and is imported though Kaggle's API or through the use of a local copy saved from the site. The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis through the use of Pandas, Regex, and Matplotlib.  
 
 ### 3.1 Twitter Data
 
