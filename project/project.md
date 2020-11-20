@@ -133,20 +133,12 @@ On December 21, 2018 the United States Government shutdown. "At the heart of the
 
 **Figure 10:** Open and Close Price during the Government Shutdown
 
-## 7. Outline of plan
 
-In the next seven weeks, these are the tasks that need to be accomplished.
-
-* Week 9 - Week 10: Clean and preprocess the data needed for the project
-* Week 10 - Week 11: Research what methods that should be used 
-* Week 11 - Week 13: Preform sentiment analysis on certain events. 
-
-
-## 8. Conclusion
+## 7. Conclusion
 
 The investigation into the relation between President Trump's tweets and the NASDAQ during certain events. The results showed that a majority of tweets were positive in polarity with subjectivity being higher or sometimes lower depending on the event. The NASDAQ had some interesting reactions based on the events. In highly important events, the stock price tended to have an upward trajectory but leading up to the event the price would go down. These results show that the content of the President's tweets have some impact in terms of the market movements, but many factors go into the price of the market such as foreign relations and how companies are preforming. Finally, its worth s worth mentioning that the analysis doesn’t take into account some factors. Weekends were a factor that was not included into the stock market data. Tweets from the President's official account were not taken into account in this analysis. All of these remaining areas can be added in future research. 
 
-## 9. References
+## 8. References
 
 [^1]: Goel, A. and Mittal, A., 2011. Stock Prediction Using Twitter Sentiment Analysis. [online] cs229.stanford.edu. Available at: <http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf>.
 
