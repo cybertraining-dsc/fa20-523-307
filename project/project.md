@@ -11,7 +11,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 
 ## Abstract
 
-In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ) during certain events during his presidency. The applications of sentiment analysis will help find the correlation that we are looking for. President Trump's tweets will be used to analyze the mood and the NASDAQ movements.   
+In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ) during certain events during his presidency. The applications of sentiment analysis will help find the correlation that we are looking for. President Trump's tweets will be used to analyze the mood and the NASDAQ movements.
 
 Contents
 
@@ -36,11 +36,11 @@ In this project, two datasets will be used -
 * President Trump's tweets during the periods of November 2016 to January 2020 is over 41,000 tweets. The data includes id, link, content, date, retweets, favorites, mentions, hashtags, and geo for every tweet in the time frame. Since the performance of the analysis is on a daily basis, tweets will be split up by Date. This data is available on Kaggle (https://www.kaggle.com/austinreese/trump-tweets?select=trumptweets.csv).
 
 
-To strengthen the analysis, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong analysis, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account.  
+To strengthen the analysis, even more, some code from the 2016 election’s analysis of markets may be utilized but the focus will be on the markets during the Trump administration. Rally data maybe introduced in order to have a deeper sense of some of the tweets when it comes to important news that is announces at President Trump's rallies. In order to have a realistic and strong analysis, the financial data needs to be aligned with the timing of tweets but news that has already started to affect the markets before a tweet has been sent out needs to be taken into account.
 
 ## 3. Data Cleaning and Preprocessing
 
-The data required for this project is stock market data and Twitter data from President Trump. Stock market data was collected from Yahoo Finance's API. This data was saved to a CSV file then imported using Pandas. The Twitter data was collected by a Kaggle user and is imported though Kaggle's API or through the use of a local copy saved from the site. The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis through the use of Pandas, Regex, and Matplotlib.  
+The data required for this project is stock market data and Twitter data from President Trump. Stock market data was collected from Yahoo Finance's API. This data was saved to a CSV file then imported using Pandas. The Twitter data was collected by a Kaggle user and is imported though Kaggle's API or through the use of a local copy saved from the site. The data obtained needs to be cleaned and pre-processed in order to make it reliable for analysis through the use of Pandas, Regex, and Matplotlib.
 
 ### 3.1 Twitter Data
 
