@@ -56,10 +56,9 @@ Stock data has a unique set of challenges when it comes to cleaning. Unlike twee
 
 The collection of finance and Twitter data will be used to visualize the results. Some of Twitter or dataset data will need to be cleaned and classified to build the model. The methodology is composed of the following steps:
 
-* Use data from President Trump's personal twitter to help visualize and create the model
-* Use data from Yahoo finance API to help visualize and create the model
-* Data cleaning and extraction.
-* New data will be updated to keep up with the current time. 
+* Use data from President Trump's personal twitter and data from Yahoo Finance API to help visualize 
+* Data cleaning and extraction 
+* Sentiment Analysis
 
 ## 5. Preliminary Analysis and EDA
 
