@@ -60,7 +60,9 @@ The collection of finance and Twitter data will be used to visualize the results
 * Data cleaning and extraction 
 * Sentiment Analysis
 
-Sentiment analysis is a key component to categorize President Trump's tweets.  Polarity and subjectivity are the two metrics that are used to classify each tweet. Polarity measures the opinion or emotion expressed in a piece of text; the value is returned as a float within the range of -1.0 to 1.0. Subjectivity, on the other hand, reflects the feelings or beliefs in a piece of text; the value is returned as a float within the range 0.0 to 1.0 where 0.0 is very objective and 1.0 is very subjective. TextBlob is the library utilized for processing the tweet's polarity and subjectivity. The sentiment method is called along with the methods for polarity and subjectivity in their own functions. The returned values are added into two columns in the dataframe.   
+Sentiment analysis is a key component to categorize President Trump's tweets.  Polarity and subjectivity are the two metrics that are used to classify each tweet. Polarity measures the opinion or emotion expressed in a piece of text; the value is returned as a float within the range of -1.0 to 1.0. Subjectivity, on the other hand, reflects the feelings or beliefs in a piece of text; the value is returned as a float within the range 0.0 to 1.0 where 0.0 is very objective and 1.0 is very subjective. TextBlob is the library utilized for processing the tweet's polarity and subjectivity. The sentiment method is called along with the methods for polarity and subjectivity in their own functions. The returned values are added into two columns in the dataframe. 
+
+The plot for the sentiment is a scatter plot. This will allow for each tweet to be plotted with their respected polarity and subjectivity. 
 
 ## 5. Preliminary Analysis and EDA
 
