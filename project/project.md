@@ -11,7 +11,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 
 ## Abstract
 
-In behavioral economics, it is said that emotions have an effect on individual's behavior and their choice in their decision making process. This can be true for a society at large but can this apply to the leader of the free world? Here we will investigate the collective mood of President Trump's tweets are correlated to the value of the Nasdaq Stock Market (NASDAQ) during certain events during his presidency. The applications of sentiment analysis will help find the correlation that we are looking for. President Trump's tweets will be used to analyze the mood and the NASDAQ movements.
+ President Trump has utilized the social media platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump's tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance's API while President Trump's tweets were gathered from Kaggle.
 
 Contents
 
@@ -108,9 +108,9 @@ After weeks of talks among Congress, the House of Representatives have voted to 
 
 **Figure 5:** Sentiment Analysis during Impeachment
 
-![Figure 6: Open and Close Price during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/impeachment_stock.png)
+![Figure 6: Open and Daily Change Price during Impeachment](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/impeachment_stock.png)
 
-**Figure 6:** Open and Close Price during Impeachment
+**Figure 6:** Open and Daily Change Price during Impeachment
 
 ### 6.2 The Dakota Access and Keystone XL pipelines approval
 
@@ -120,9 +120,9 @@ One of the first moves President Trump made when arriving into office was to app
 
 **Figure 7:** Sentiment Analysis during Dakota Approval
 
-![Figure 8: Open and Close Price during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/dakota_stock.png)
+![Figure 8: Open and Daily Change Price during Dakota Approval](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-307/main/project/images/dakota_stock.png)
 
-**Figure 8:** Open and Close Price during Dakota Approval
+**Figure 8:** Open and Daily Change Price during Dakota Approval
 
 ### 6.3 The Government Shutdown
 
