@@ -3,7 +3,7 @@
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
-Status: in progress
+Status: in progress, Type: Project
 
 Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-307/blob/master/project/project.md)
 
