@@ -3,7 +3,7 @@
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-307/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-307/actions)
-Status: in progress, Type: Project
+Status: final, Type: Project
 
 Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-307/blob/master/project/project.md)
 
@@ -11,7 +11,7 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 
 ## Abstract
 
- President Trump has utilized the social media platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump's tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance's API while President Trump's tweets were gathered from Kaggle.
+ President Trump has utilized the social media platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump's tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance's API while President Trump's tweets were gathered from Kaggle. The results observed show that during certain events, a correlation emerges of the NASDAQ data and the sentiment of President Trump's tweets.   
 
 Contents
 
@@ -139,7 +139,7 @@ On December 21, 2018 the United States Government shutdown. "At the heart of the
 
 ## 7. Conclusion
 
-The investigation showed the relation between President Trump's tweets and the NASDAQ during certain events. The results pointed that a majority of tweets were positive in polarity with subjectivity being higher or sometimes lower depending on the event. The NASDAQ had some interesting reactions based on the events. In highly important events, the stock price tended to have an upward trajectory but leading up to the event the price would go down. These results show that the content of the President's tweets have some impact in terms of the market movements, but many factors go into the price of the market such as foreign relations and how companies are preforming. Finally, its worth s worth mentioning that the analysis doesn’t take into account some factors. Weekends were a factor that was not included into the stock market data. Tweets from the President's official account were not taken into account in this analysis. All of these remaining areas can be added in future research. 
+The investigation showed the relation between President Trump's tweets and the NASDAQ during certain events. The results pointed that a majority of tweets were positive in polarity with subjectivity being higher or sometimes lower depending on the event. The NASDAQ had some interesting reactions based on the events. In highly important events, the stock price tended to have an upward trajectory but leading up to the event the price would go down. These results show that the content of the President's tweets have some impact in terms of the market movements, but many factors go into the price of the market such as foreign relations and how companies are preforming. Finally, it is worth mentioning that the analysis doesn’t take into account some factors. Weekends were a factor that was not included into the stock market data. Tweets from the President's official account were not taken into account in this analysis. All of these remaining areas can be added in future research. 
 
 ## 8. References
 
@@ -147,8 +147,8 @@ The investigation showed the relation between President Trump's tweets and the N
 
 [^2]: J. Bollen, H. Mao, and X. Zeng, Twitter mood predicts the stock market. Journal of Computational Science, vol. 2, no. 1, pp. 1–8, 2011. 
 
-[^3] President Donald Trump impeached, History.com, 05-Feb-2020. [online]. Available at: <https://www.history.com/this-day-in-history/president-trump-impeached-house-of-representatives>. 
+[^3]: President Donald Trump impeached, History.com, 05-Feb-2020. [online]. Available at: <https://www.history.com/this-day-in-history/president-trump-impeached-house-of-representatives>. 
 
-[^4] D. Smith and A. Kassam, Trump orders revival of Keystone XL and Dakota Access pipelines, The Guardian, 24-Jan-2017. [online]. Available at: <https://www.theguardian.com/us-news/2017/jan/24/keystone-xl-dakota-access-pipelines-revived-trump-administration>. 
+[^4]: D. Smith and A. Kassam, Trump orders revival of Keystone XL and Dakota Access pipelines, The Guardian, 24-Jan-2017. [online]. Available at: <https://www.theguardian.com/us-news/2017/jan/24/keystone-xl-dakota-access-pipelines-revived-trump-administration>. 
 
-[^5] Bryan, B., The government shutdown is now the longest on record and the fight between Trump and Democrats is only getting uglier. Here's everything you missed. 21-Jan-2019. [online]. Available at: <https://www.businessinsider.com/government-shutdown-timeline-deadline-trump-democrats-2019-1>.
+[^5]: Bryan, B., The government shutdown is now the longest on record and the fight between Trump and Democrats is only getting uglier. Here's everything you missed. 21-Jan-2019. [online]. Available at: <https://www.businessinsider.com/government-shutdown-timeline-deadline-trump-democrats-2019-1>.
