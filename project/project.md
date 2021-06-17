@@ -21,7 +21,8 @@ Alex Baker, fa20-523-307, [Edit](https://github.com/cybertraining-dsc/fa20-523-3
 
 ## Abstract
 
-President Trump has utilized the social media platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump's tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance's API while President Trump's tweets were gathered from Kaggle. The results observed show that during certain events, a correlation emerges of the NASDAQ data and the sentiment of President Trump's tweets.
+President Trump has utilized the social media 
+platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump's tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance's API while President Trump's tweets were gathered from Kaggle. The results observed show that during certain events, a correlation emerges of the NASDAQ data and the sentiment of President Trump's tweets.
 
 Contents
 
